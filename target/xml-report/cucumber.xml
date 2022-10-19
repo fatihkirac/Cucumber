@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.807">
+    <testcase classname="US017 Class Work" name="explicitly wait" time="11.94">
+        <system-out><![CDATA[Given kullanici "demoqaUrl" anasayfasinda...................................passed
+Then kullanici Will enable bes seconds butonunun enable olmasini bekler.....passed
+And kullanici Will enable bes seconds butonunun enable oldugunu test eder...passed
+]]></system-out>
+    </testcase>
+</testsuite>

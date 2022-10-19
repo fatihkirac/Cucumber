@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="runners.TestRun2" time="0.265" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.boot.library.path" value="C:\Users\FatihK\.jdks\openjdk-18.0.2.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\comBatch81Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\comBatch81Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\FatihK\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Users\FatihK\.jdks\openjdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\FatihK\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.15\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\bin;;C:\Users\FatihK\AppData\Local\GitHubDesktop\bin;C:\Users\FatihK\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="62.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\FatihK"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="user.name" value="FatihK"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.1.1 install"/>
+    <property name="java.home" value="C:\Users\FatihK\.jdks\openjdk-18.0.2.1"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="0.265">
+    <error message="The step &apos;kullanici webUrl anasayfasinda&apos; and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;kullanici webUrl anasayfasinda&quot;)
+public void kullanici_web_url_anasayfasinda() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Login Portala kadar asagi iner&quot;)
+public void kullanici_login_portala_kadar_asagi_iner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Login Portala tiklar&quot;)
+public void kullanici_login_portala_tiklar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici diger windowa gecer&quot;)
+public void kullanici_diger_windowa_gecer() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici {string} kutusuna bilgileri girer&quot;)
+public void kullanici_kutusuna_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici {string} bolumune bilgileri girer&quot;)
+public void kullanici_bolumune_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici login butonuna basar&quot;)
+public void kullanici_login_butonuna_basar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Popup&apos;ta cikan yazinin validation failed oldugunu test eder&quot;)
+public void kullanici_popup_ta_cikan_yazinin_validation_failed_oldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Ok diyerek Popup&apos;i kapatir&quot;)
+public void kullanici_ok_diyerek_popup_i_kapatir() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici ilk sayfaya geri doner&quot;)
+public void kullanici_ilk_sayfaya_geri_doner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici ilk sayfaya donuldugunu test eder&quot;)
+public void kullanici_ilk_sayfaya_donuldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;kullanici webUrl anasayfasinda&apos; and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;kullanici webUrl anasayfasinda&quot;)
+public void kullanici_web_url_anasayfasinda() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Login Portala kadar asagi iner&quot;)
+public void kullanici_login_portala_kadar_asagi_iner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Login Portala tiklar&quot;)
+public void kullanici_login_portala_tiklar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici diger windowa gecer&quot;)
+public void kullanici_diger_windowa_gecer() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici {string} kutusuna bilgileri girer&quot;)
+public void kullanici_kutusuna_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici {string} bolumune bilgileri girer&quot;)
+public void kullanici_bolumune_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici login butonuna basar&quot;)
+public void kullanici_login_butonuna_basar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Popup&apos;ta cikan yazinin validation failed oldugunu test eder&quot;)
+public void kullanici_popup_ta_cikan_yazinin_validation_failed_oldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici Ok diyerek Popup&apos;i kapatir&quot;)
+public void kullanici_ok_diyerek_popup_i_kapatir() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici ilk sayfaya geri doner&quot;)
+public void kullanici_ilk_sayfaya_geri_doner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;kullanici ilk sayfaya donuldugunu test eder&quot;)
+public void kullanici_ilk_sayfaya_donuldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-err>&amp;#27;[32m&amp;#27;[1m┌──────────────────────────────────────────────────────────────────────────┐&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m View your Cucumber Report at:                                            &amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m &amp;#27;[1m&amp;#27;[36m&amp;#27;[4mhttps://reports.cucumber.io/reports/4920797f-2b1d-4dfb-b4bd-4d342dcabda7&amp;#27;[0m &amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m                                                                          &amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m This report was published in collection &quot;Editor Test&quot;                    &amp;#27;[32m&amp;#27;[1m│&amp;#27;[0m
+&amp;#27;[32m&amp;#27;[1m└──────────────────────────────────────────────────────────────────────────┘&amp;#27;[0m</system-err>
+  </testcase>
+</testsuite>

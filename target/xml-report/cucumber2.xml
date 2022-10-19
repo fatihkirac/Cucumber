@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.31">
+    <testcase classname="US014 Class Work" name="Kullanici ve Url Testi" time="0.157">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given kullanici webUrl anasayfasinda........................................undefined
+Then kullanici Login Portala kadar asagi iner...............................skipped
+And kullanici Login Portala tiklar..........................................skipped
+And kullanici diger windowa gecer...........................................skipped
+And kullanici "username" kutusuna bilgileri girer...........................skipped
+And kullanici "password" bolumune bilgileri girer...........................skipped
+And kullanici login butonuna basar..........................................skipped
+And kullanici Popup'ta cikan yazinin validation failed oldugunu test eder...skipped
+And kullanici Ok diyerek Popup'i kapatir....................................skipped
+And kullanici ilk sayfaya geri doner........................................skipped
+And kullanici ilk sayfaya donuldugunu test eder.............................skipped
+]]></failure>
+    </testcase>
+</testsuite>

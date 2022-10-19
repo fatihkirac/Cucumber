@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRun2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.015 sec <<< FAILURE!
+Kullanici ve Url Testi(US014 Class Work)  Time elapsed: 0.265 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'kullanici webUrl anasayfasinda' and 10 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("kullanici webUrl anasayfasinda")
+public void kullanici_web_url_anasayfasinda() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici Login Portala kadar asagi iner")
+public void kullanici_login_portala_kadar_asagi_iner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici Login Portala tiklar")
+public void kullanici_login_portala_tiklar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici diger windowa gecer")
+public void kullanici_diger_windowa_gecer() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici {string} kutusuna bilgileri girer")
+public void kullanici_kutusuna_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici {string} bolumune bilgileri girer")
+public void kullanici_bolumune_bilgileri_girer(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici login butonuna basar")
+public void kullanici_login_butonuna_basar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici Popup'ta cikan yazinin validation failed oldugunu test eder")
+public void kullanici_popup_ta_cikan_yazinin_validation_failed_oldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici Ok diyerek Popup'i kapatir")
+public void kullanici_ok_diyerek_popup_i_kapatir() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici ilk sayfaya geri doner")
+public void kullanici_ilk_sayfaya_geri_doner() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("kullanici ilk sayfaya donuldugunu test eder")
+public void kullanici_ilk_sayfaya_donuldugunu_test_eder() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
