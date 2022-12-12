@@ -35,22 +35,22 @@ public class US_027_DB_StepDefinition {
     public void kullanıcıKayitliMesajlariDogrulamaYapabilmekIcinKaydeder() {
         String query="select * from cmessage";
         System.out.println("---------------------------");
-        List<Object> messageList=getColumnData(query,"message");
+        List<Object> messageIdsList=getColumnData(query,"id");
 
-        String fileName="src/test/resources/testdata/messages.txt";
-        WriteToTxt.saveMessages(fileName,messageList);
+        String fileName="src/test/resources/testdata/messagesIds.txt";
+        WriteToTxt.saveMessages(fileName,messageIdsList);
     }
 
     @And("Kullanici kayitli mesajları dogrular")
     public void kullaniciKayitliMesajlarıDogrular() {
-        String fileName="src/test/resources/testdata/messages.txt";
-        List<Object> actualMessageList= ReadTxt.returnMessagesList(fileName);
-        System.out.println("actualMessageList = " + actualMessageList);
-        List<Object> expectedMessageList=new ArrayList<>();
-        expectedMessageList.add("lutfen sikayetmi duzeltin");
-        expectedMessageList.add("mesaj guncel");
+        String fileName="src/test/resources/testdata/messagesIds.txt";
+        List<Object> actualMessageIdsList= ReadTxt.returnMessagesList(fileName);
+        System.out.println("actualMessageIdsList = " + actualMessageIdsList);
+        List<Object> expectedMessageIdsList=new ArrayList<>();
+       expectedMessageIdsList.add("390799");
+       expectedMessageIdsList.add("390800");
 
-        Assert.assertTrue("Mesajlar uyusmuyor", actualMessageList.containsAll(expectedMessageList));
+       Assert.assertTrue("Mesajlar uyusmuyor", actualMessageIdsList.containsAll(expectedMessageIdsList));
 
 
     }

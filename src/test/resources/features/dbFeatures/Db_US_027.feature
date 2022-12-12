@@ -1,6 +1,6 @@
-@DB_US027
-Feature: Mesajlar kullanici  tarafından DB ile dogrulanir
 
+Feature: Mesajlar kullanici  tarafından DB ile dogrulanir
+  @DB_US027
   Scenario: Kullanıcı mesajları DB ile dogrulamalidir
 
     Given Kullanici database ile baglanti kurar
