@@ -22,18 +22,15 @@ public class US_027_DB_StepDefinition {
     public void kullaniciDatabaseIleBaglantiKurar() {
         DatabaseUtility.createConnection();
     }
-
     @When("Kullanici kayitli mesajlari gorebilmek icin query olusturur")
     public void kullaniciKayitliMesajlariGorebilmekIcinQueryOlusturur() {
         String query="select * from cmessage";
     }
-
     @Then("Kullanici olusturulan mesaj tablosunu sutun isimlerine gore getirir")
     public void kullaniciOlusturulanMesajlarıMesajSutununaGoreListeler() {
         String query="select * from cmessage";
         System.out.println("Mesaj sutun isimleri = " + getColumnNames(query));
     }
-
     @And("Kullanıcı kayitli mesajları dogrulama yapabilmek icin mesaj sutununa gore kaydeder")
     public void kullanıcıKayitliMesajlariDogrulamaYapabilmekIcinKaydeder() {
         String query="select * from cmessage";
