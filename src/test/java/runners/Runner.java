@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@DB_US027",
+        tags = "@US028_DB_TC02",
         dryRun =false
 )
 public class Runner {
